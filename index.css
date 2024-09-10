@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.container{
+    background-color: rgb(2, 2, 31);
+    width: 100;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.top-section{
+    display: flex;
+    height: 30%;
+    color: #e7e7e7; 
+    gap: 15px;
+}
+.product-name{
+    background-color: #d1d0d0;
+    width: 80%;
+    border-radius: 10px;
+    height: 100%;
+    color: #e7e7e7;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+/*.product-name h2{
+    font-size: 35px;
+}*/
+
+.product-pic{
+    background-color: rgb(216, 206, 204);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    /*display: flex;*/
+    justify-content: center;
+    
+
+}
+.logo{
+    background-color: rgb(105, 99, 90);
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;    
+}
+
+.logo-pic{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    gap: 15px;
+}
+
+.product-photo{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    width: 62%;
+    height: 100%;
+    border-radius: 10px;
+}
+.descriptions{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 38%;
+    height: 100%;
+    border-radius: 10px;
+}
+.description-1 {
+    background-color: #a77a00;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    gap:5px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-item h2 {
+    color: #0e1a0d; 
+    font-size: 49px;
+    margin: 0;
+}
+
+.stat-item p {
+    color: #ffffff; 
+    font-size: 14px;
+    margin: 2px 0;
+}
+.description-2{
+    background-color: #f4fdd4;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-size: 24px;
+}
